@@ -1,0 +1,22 @@
+﻿1>检查已有的配置信息:$ git config --list
+2>配置名字:$ git config user.name
+3> 获得工具的帮助:$ git help <命令>/$ git <命令> --help/$ man git-<命令>
+
+4>要对现有的某个项目开始用 Git 管理，只需到此项目所在的目录，执行：$ git init
+
+5>如果当前目录下有几个文件想要纳入版本控制，需要先用 git add 命令告诉 Git 开始对这些文件进行跟踪，然后提交：
+  $ git add 文件名
+  $ git commit -m '随意的记录文字'
+
+6>克隆仓库的命令格式为 git clone [url]。比如，要克隆 Ruby 语言的 Git 代码仓库 Grit，可以用下面的命令：
+  $ git clone git://github.com/zzmmyy/目录名.git (想要修改的目录名字)
+
+7>确定哪些文件当前处于什么状态: $ git status
+
+8>对于任何一个文件，在 Git 内都只有三种状态：已提交（committed），已修改（modified）和已暂存（staged）。已提交表示该文件已经被安全地  保存在本地数据库中了；已修改表示修改了某个文件，但还没有提交保存；已暂存表示把已修改的文件放在下次提交时要保存的清单中。
+
+
+
+9>
+
+10>
